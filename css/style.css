@@ -427,11 +427,6 @@ p {
 
   /****** header ***********/
 
-  .mobile_horizontal {
-    display: flex;
-    justify-content: center;
-  }
-
   .paddin_nav {
     padding: 0px;
     margin-left: -30%;
@@ -640,19 +635,18 @@ p {
 
   .taille_police_p {
     font-size: 11px;
-    margin: -15% 0% 0% 7%;
+    margin: -50px 0% 0% 7%;
   }
 
   .marge_titre_mobile {
-    height: 90px;
+    height: 50px;
   }
   /****** main recherche ***********/
 
   .container_trouver_ville {
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin: 0% 0px 4% 0%;
+    width: auto;
   }
 
   .logo_emplacement {
@@ -695,7 +689,6 @@ p {
 
   .filtres {
     font-size: 13px;
-    margin-top: 30px;
   }
   .filtre_mobile {
     display: grid;
@@ -726,8 +719,7 @@ p {
   .information_mobile {
     width: 90%;
     height: 38px;
-    margin-bottom: -50px;
-    margin-left: 2%;
+    margin: 0px 0px -50px 2%;
     font-size: 13px;
     text-align: justify;
   }
@@ -754,13 +746,13 @@ p {
   }
 
   .hebergements {
-    width: 100%;
+    width: 95%;
     height: 100%;
     margin-top: -50px;
   }
 
   .hebergement_card {
-    width: 95%;
+    width: 100%;
     height: 100%;
     margin-bottom: 15px;
     font-size: 100%;
@@ -792,8 +784,7 @@ p {
   .populaires {
     width: 100%;
     margin-top: 50px;
-
-  }
+}
 
   .populaires-cards {
     display: flex;
