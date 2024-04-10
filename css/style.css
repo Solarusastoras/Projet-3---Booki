@@ -570,35 +570,33 @@ p {
 /****** mobile ***********/
 /* Small devices (phones, less than 768px) */
 @media (min-width: 320px) and (max-width: 767.98px) {
- 
   .mobile_dimension {
     width: 100%;
     margin: 0% 0% 0% 0%;
-}
-   /****** header ***********/
+  }
+  /****** header ***********/
   .icon_booki {
     display: flex;
     justify-content: center;
-    margin: 0px 0px -50px -15px;
+    margin: 0px 0px -50px 0px;
   }
 
   .container_header {
     display: flex;
     flex-direction: column;
-    width: 100%;
     padding: 0px;
+    margin-right: 0px;
   }
 
   .ecart_nav {
-    margin-right: 110px;
-    margin-left: -1%;
+    margin-left: 10%;
   }
 
   .mobile_horizontal {
     display: flex;
     flex-direction: row;
     border-bottom: #f2f2f2 solid 2px;
-    width: 110%;
+    width: 100%;
     margin: 0px 0px 15px -30px;
   }
 
@@ -784,7 +782,7 @@ p {
   .populaires {
     width: 100%;
     margin-top: 50px;
-}
+  }
 
   .populaires-cards {
     display: flex;
@@ -836,7 +834,6 @@ p {
   .activites_card_espace {
     margin: 0px 0px 0px 0px;
   }
-
 
   /****** Footer ***********/
 
