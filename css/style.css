@@ -119,7 +119,7 @@ ul {
 }
 
 .populaires-cards .card-subtitle {
-  margin: 0;
+  margin: 0px;
 }
 
 .populaires-cards .card-rating {
@@ -570,10 +570,12 @@ p {
 /****** mobile ***********/
 /* Small devices (phones, less than 768px) */
 @media (min-width: 320px) and (max-width: 767.98px) {
-  .mobile_dimension {
-    width: 100%;
-    margin: 0% 0% 0% 0%;
+  .main_mobile {
+    padding: 0px;
+    margin-right: -15px;
+    margin-left: 15px;
   }
+
   /****** header ***********/
   .icon_booki {
     display: flex;
@@ -589,15 +591,16 @@ p {
   }
 
   .ecart_nav {
-    margin-left: 10%;
+    margin-right: 70px;
   }
 
   .mobile_horizontal {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     border-bottom: #f2f2f2 solid 2px;
     width: 100%;
-    margin: 0px 0px 15px -30px;
+    margin: 0px 0px 15px -40px;
   }
 
   .trait_bas {
@@ -618,14 +621,12 @@ p {
   /****** main Titre ***********/
 
   .main-container {
-    width: 100%;
     margin: 0px;
     padding-right: 0px;
     padding-left: 0px;
   }
 
   .centrer_h1_mobile {
-    width: 100%;
     height: 79px;
     font-size: 16px;
     margin-left: 20px;
@@ -681,8 +682,9 @@ p {
 
   .container_filtre {
     display: flex;
+    justify-content: center;
     width: 90%;
-    margin-left: 3%;
+    margin-left: 5%;
   }
 
   .filtres {
@@ -726,16 +728,23 @@ p {
 
   .hebergements-and-populaires {
     flex-direction: column-reverse;
+    justify-content: center;
     gap: 15px;
     background-color: #ffffff;
+    width: 100%;
   }
 
   :root .hebergements {
     background-color: #ffffff;
+    padding: 0%;
+  }
+
+  .espace_hébergement_marseille_mobile {
+    margin: 15px 0px 15px 9%;
   }
 
   .marge_mobile_hebergement {
-    margin-left: 0px;
+    margin-right: -10px;
   }
 
   .hebergement_alignement {
@@ -744,16 +753,17 @@ p {
   }
 
   .hebergements {
-    width: 95%;
+    width: 100%;
     height: 100%;
     margin-top: -50px;
   }
 
   .hebergement_card {
-    width: 100%;
+    width: 80%;
     height: 100%;
     margin-bottom: 15px;
     font-size: 100%;
+    margin-left: 8%;
   }
 
   .hebergement_img {
@@ -823,7 +833,7 @@ p {
     width: 80%;
     height: 200px;
     font-size: 11px;
-    margin-left: 9%;
+    margin-left: 10%;
   }
 
   .images_activites {
@@ -838,7 +848,7 @@ p {
   /****** Footer ***********/
 
   .footer_fond_ecran {
-    width: 100%;
+    width: 101.6%;
     height: auto;
     background-color: #f2f2f2;
     font-size: 11px;
@@ -865,6 +875,6 @@ p {
     margin-left: -8px;
     font-size: 12px;
     text-align: left;
-    width: 300px;
+    width: 200px;
   }
 }
