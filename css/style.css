@@ -572,11 +572,19 @@ p {
 @media (min-width: 320px) and (max-width: 767.98px) {
   .main_mobile {
     padding: 0px;
-    margin-right: -15px;
-    margin-left: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .mobile_dimension {
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   /****** header ***********/
+  .marge_header_mobile {
+    margin: 0px;
+  }
+
   .icon_booki {
     display: flex;
     justify-content: center;
@@ -763,7 +771,7 @@ p {
     height: 100%;
     margin-bottom: 15px;
     font-size: 100%;
-    margin-left: 8%;
+    margin-left: 9%;
   }
 
   .hebergement_img {
@@ -777,12 +785,14 @@ p {
   }
 
   .marge_afficher {
-    padding-top: 0px;
+    padding-top: 1px;
+    margin-left: 20px;
   }
 
   .hebergement_card .card-title {
     font-size: 13px;
   }
+
   .hebergement_card .card-subtitle {
     font-size: 11px;
   }
@@ -821,7 +831,7 @@ p {
 
   .marge_haut_bloc_activitesb {
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 
   .alignement_activites_mobile {
@@ -831,7 +841,7 @@ p {
 
   .activites_cards_fond {
     width: 80%;
-    height: 200px;
+    height: 195px;
     font-size: 11px;
     margin-left: 10%;
   }
@@ -847,12 +857,15 @@ p {
 
   /****** Footer ***********/
 
+  .marge_footer_mobile {
+  }
+
   .footer_fond_ecran {
-    width: 101.6%;
     height: auto;
     background-color: #f2f2f2;
     font-size: 11px;
     text-align: justify;
+    width: 100%;
   }
 
   .alignement_ul_mobile {
@@ -864,10 +877,6 @@ p {
     flex-direction: column;
   }
 
-  .largeur_texte {
-    width: 200px;
-  }
-
   .ecart_li {
     display: flex;
     flex-direction: column;
@@ -875,6 +884,5 @@ p {
     margin-left: -8px;
     font-size: 12px;
     text-align: left;
-    width: 200px;
   }
 }
