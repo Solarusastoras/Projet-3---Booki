@@ -616,10 +616,13 @@ p {
   }
 
   .trait_bas:hover {
-    justify-content: center;
     border-bottom-color: #0065fc;
     border-top: transparent;
     padding-bottom: 17px;
+  }
+
+  .trait_bas:hover {
+    border-bottom-width: 150%;
   }
 
   .taille_font_size {
@@ -857,8 +860,6 @@ p {
 
   /****** Footer ***********/
 
-  .marge_footer_mobile {
-  }
 
   .footer_fond_ecran {
     height: auto;
