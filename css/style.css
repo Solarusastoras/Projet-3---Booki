@@ -575,11 +575,12 @@ p {
 /****** mobile ***********/
 /* Small devices (phones, less than 768px) */
 @media (min-width: 320px) and (max-width: 767.98px) {
-  /****** header ***********/
+ 
   .mobile_dimension {
     width: 100%;
-  }
-
+    margin: 0% 0% 0% 0%;
+}
+   /****** header ***********/
   .icon_booki {
     display: flex;
     justify-content: center;
@@ -624,35 +625,34 @@ p {
   /****** main Titre ***********/
 
   .main-container {
-    width: 120.5%;
+    width: 100%;
     margin: 0px;
-    padding-right: 15px;
-    margin-left: -5%;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .centrer_h1_mobile {
-    width: 107%;
+    width: 100%;
     height: 79px;
     font-size: 16px;
+    margin-left: 20px;
   }
 
   .taille_police_p {
-    width: 105%;
     font-size: 11px;
-    margin: -50px 0px 0px 0px;
+    margin: -15% 0% 0% 7%;
   }
 
   .marge_titre_mobile {
-    height: 79px;
+    height: 90px;
   }
-
   /****** main recherche ***********/
 
   .container_trouver_ville {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: -40px -30px -40px -5px;
+    margin: 0% 0px 4% 0%;
   }
 
   .logo_emplacement {
@@ -689,7 +689,8 @@ p {
 
   .container_filtre {
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin-left: 3%;
   }
 
   .filtres {
@@ -723,10 +724,12 @@ p {
   }
 
   .information_mobile {
-    width: 100%;
+    width: 90%;
     height: 38px;
     margin-bottom: -50px;
+    margin-left: 2%;
     font-size: 13px;
+    text-align: justify;
   }
 
   /****** main hebergements ***********/
@@ -754,11 +757,10 @@ p {
     width: 100%;
     height: 100%;
     margin-top: -50px;
-    margin-left: -10%;
   }
 
   .hebergement_card {
-    width: 120%;
+    width: 95%;
     height: 100%;
     margin-bottom: 15px;
     font-size: 100%;
@@ -788,9 +790,9 @@ p {
   /****** main populaire ***********/
 
   .populaires {
-    width: 120%;
+    width: 100%;
     margin-top: 50px;
-    margin-left: -10%;
+
   }
 
   .populaires-cards {
@@ -820,8 +822,7 @@ p {
 
   .marge_haut_bloc_activitesb {
     margin-top: 40px;
-    margin-right: 5%;
-    margin-left: -5%;
+    margin-bottom: 70px;
   }
 
   .alignement_activites_mobile {
@@ -830,25 +831,30 @@ p {
   }
 
   .activites_cards_fond {
-    width: 120%;
+    width: 80%;
     height: 200px;
-    margin-left: -5%;
     font-size: 11px;
+    margin-left: 9%;
   }
+
   .images_activites {
     height: 141px;
     width: 100%;
   }
 
+  .activites_card_espace {
+    margin: 0px 0px 0px 0px;
+  }
+
+
   /****** Footer ***********/
 
   .footer_fond_ecran {
-    width: 120%;
+    width: 100%;
     height: auto;
     background-color: #f2f2f2;
     font-size: 11px;
     text-align: justify;
-    margin-left: -10%;
   }
 
   .alignement_ul_mobile {
