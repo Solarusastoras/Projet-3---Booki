@@ -870,6 +870,7 @@ p {
 
   .alignement_ul_mobile {
     margin-left: 1px;
+    margin-right: 0px;
   }
 
   .colonne_mobile {
@@ -884,5 +885,15 @@ p {
     margin-left: -8px;
     font-size: 12px;
     text-align: left;
+  }
+
+  .marge_apropos_mobile,
+  .marge_nos_hebergements_mobile,
+  .marge_assistance_mobile {
+    margin-left: 0px;
+  }
+  .ecart_li_mobile {
+    margin-right: 0px;
+    padding-right: 0px;
   }
 }
