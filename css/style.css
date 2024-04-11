@@ -599,8 +599,8 @@ p {
   }
 
   .ecart_nav {
-    margin-right: 70px;
-    margin-left: -80px;
+    margin-right: 80px;
+    margin-left: -60px;
   }
 
   .mobile_horizontal {
@@ -616,7 +616,7 @@ p {
     border-bottom: 2px solid #0065fc;
     border-top: transparent;
     padding: 0px 30px 17px 30px;
-    }
+  }
 
   .taille_font_size {
     font-size: 13px;
