@@ -600,6 +600,7 @@ p {
 
   .ecart_nav {
     margin-right: 70px;
+    margin-left: -80px;
   }
 
   .mobile_horizontal {
@@ -608,22 +609,14 @@ p {
     justify-content: center;
     border-bottom: #f2f2f2 solid 2px;
     width: 100%;
-    margin: 0px 0px 15px -40px;
-  }
-
-  .trait_bas {
-    border-bottom: 2px solid transparent;
+    margin: 0px 0px 15px 0px;
   }
 
   .trait_bas:hover {
-    border-bottom-color: #0065fc;
+    border-bottom: 2px solid #0065fc;
     border-top: transparent;
-    padding-bottom: 17px;
-  }
-
-  .trait_bas:hover {
-    border-bottom-width: 150%;
-  }
+    padding: 0px 30px 17px 30px;
+    }
 
   .taille_font_size {
     font-size: 13px;
@@ -859,7 +852,6 @@ p {
   }
 
   /****** Footer ***********/
-
 
   .footer_fond_ecran {
     height: auto;
